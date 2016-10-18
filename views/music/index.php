@@ -55,13 +55,13 @@
     <!-- 尾部容器 -->
     <footer class="con_footer">
         <!-- 歌手图片 -->
-        <div class="pageA_musicImg" id="pageA_musicImg">
+        <div class="pageA_singerImg" id="pageA_SingerImg">
             <img src="/images/singer/cronmyshoider.jpg">
         </div>
         <!-- 歌名显示 -->
         <div class="nowSong_information" id="nowSong_information">
-            <p id="pageA_musicName">SongName</p>
-            <p id="pageA_songName">music</p>
+            <p id="pageA_singerName">SongName</p>
+            <p id="pageA_songName">singer</p>
         </div>
         <!-- 播放组件 -->
         <div class="pageA_musicElemnt">
@@ -88,7 +88,7 @@
         <p class="pageB_songName" id="pageB_songName">
             songName
         </p>
-        <p class="pageB_singerName" id="pageB_singerName">musicName</p>
+        <p class="pageB_singerName" id="pageB_singerName">singerName</p>
     </header>
     <!-- 中间列表容器 -->
     <section class="con_container">
