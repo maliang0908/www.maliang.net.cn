@@ -34859,3 +34859,827 @@ $_SERVER = [
     'argv' => []
     'argc' => 0
 ]
+2016-10-18 11:48:08 [::1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "".' in /Users/M/WWW/www.maliang.net.cn/vendor/yiisoft/yii2/base/Module.php:460
+Stack trace:
+#0 /Users/M/WWW/www.maliang.net.cn/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('', Array)
+#1 /Users/M/WWW/www.maliang.net.cn/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Users/M/WWW/www.maliang.net.cn/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Users/M/WWW/www.maliang.net.cn/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /Users/M/WWW/www.maliang.net.cn/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Users/M/WWW/www.maliang.net.cn/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2016-10-18 11:48:08 [::1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '10a51765fcf1c9658b735e9154c14cea66a10f2c1ffc4950970b173929cb05c9a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"cYIQ1G9-TMghTf5ITQp-1oVN6zQJyHT7\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.maliang.net.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=10a51765fcf1c9658b735e9154c14cea66a10f2c1ffc4950970b173929cb05c9a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22cYIQ1G9-TMghTf5ITQp-1oVN6zQJyHT7%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'www.maliang.net.cn'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Users/M/WWW/www.maliang.net.cn/web'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Users/M/WWW/www.maliang.net.cn/web/index.php'
+    'REMOTE_PORT' => '54001'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1476762488.1
+    'REQUEST_TIME' => 1476762488
+    'argv' => []
+    'argc' => 0
+]
+2016-10-18 13:54:44 [::1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "".' in /Users/M/WWW/www.maliang.net.cn/vendor/yiisoft/yii2/base/Module.php:460
+Stack trace:
+#0 /Users/M/WWW/www.maliang.net.cn/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('', Array)
+#1 /Users/M/WWW/www.maliang.net.cn/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Users/M/WWW/www.maliang.net.cn/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Users/M/WWW/www.maliang.net.cn/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /Users/M/WWW/www.maliang.net.cn/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Users/M/WWW/www.maliang.net.cn/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2016-10-18 13:54:43 [::1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '10a51765fcf1c9658b735e9154c14cea66a10f2c1ffc4950970b173929cb05c9a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"cYIQ1G9-TMghTf5ITQp-1oVN6zQJyHT7\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.maliang.net.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=10a51765fcf1c9658b735e9154c14cea66a10f2c1ffc4950970b173929cb05c9a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22cYIQ1G9-TMghTf5ITQp-1oVN6zQJyHT7%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'www.maliang.net.cn'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Users/M/WWW/www.maliang.net.cn/web'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Users/M/WWW/www.maliang.net.cn/web/index.php'
+    'REMOTE_PORT' => '56906'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1476770083.97
+    'REQUEST_TIME' => 1476770083
+    'argv' => []
+    'argc' => 0
+]
+2016-10-18 13:59:41 [::1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "".' in /Users/M/WWW/www.maliang.net.cn/vendor/yiisoft/yii2/base/Module.php:460
+Stack trace:
+#0 /Users/M/WWW/www.maliang.net.cn/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('', Array)
+#1 /Users/M/WWW/www.maliang.net.cn/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Users/M/WWW/www.maliang.net.cn/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Users/M/WWW/www.maliang.net.cn/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /Users/M/WWW/www.maliang.net.cn/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Users/M/WWW/www.maliang.net.cn/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2016-10-18 13:59:40 [::1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '10a51765fcf1c9658b735e9154c14cea66a10f2c1ffc4950970b173929cb05c9a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"cYIQ1G9-TMghTf5ITQp-1oVN6zQJyHT7\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.maliang.net.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=10a51765fcf1c9658b735e9154c14cea66a10f2c1ffc4950970b173929cb05c9a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22cYIQ1G9-TMghTf5ITQp-1oVN6zQJyHT7%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'www.maliang.net.cn'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Users/M/WWW/www.maliang.net.cn/web'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Users/M/WWW/www.maliang.net.cn/web/index.php'
+    'REMOTE_PORT' => '57000'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1476770380.99
+    'REQUEST_TIME' => 1476770380
+    'argv' => []
+    'argc' => 0
+]
+2016-10-18 13:59:42 [::1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: mobile/#' in /Users/M/WWW/www.maliang.net.cn/vendor/yiisoft/yii2/base/Controller.php:125
+Stack trace:
+#0 /Users/M/WWW/www.maliang.net.cn/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('#', Array)
+#1 /Users/M/WWW/www.maliang.net.cn/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('mobile/#', Array)
+#2 /Users/M/WWW/www.maliang.net.cn/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /Users/M/WWW/www.maliang.net.cn/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Users/M/WWW/www.maliang.net.cn/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /Users/M/WWW/www.maliang.net.cn/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Users/M/WWW/www.maliang.net.cn/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2016-10-18 13:59:42 [::1][-][-][info][application] $_GET = [
+    'r' => 'mobile/#'
+]
+
+$_COOKIE = [
+    '_csrf' => '10a51765fcf1c9658b735e9154c14cea66a10f2c1ffc4950970b173929cb05c9a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"cYIQ1G9-TMghTf5ITQp-1oVN6zQJyHT7\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.maliang.net.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.maliang.net.cn/'
+    'HTTP_COOKIE' => '_csrf=10a51765fcf1c9658b735e9154c14cea66a10f2c1ffc4950970b173929cb05c9a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22cYIQ1G9-TMghTf5ITQp-1oVN6zQJyHT7%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'www.maliang.net.cn'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Users/M/WWW/www.maliang.net.cn/web'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Users/M/WWW/www.maliang.net.cn/web/index.php'
+    'REMOTE_PORT' => '57000'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=mobile%2F%23'
+    'REQUEST_URI' => '/index.php?r=mobile%2F%23'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1476770382.82
+    'REQUEST_TIME' => 1476770382
+    'argv' => [
+        0 => 'r=mobile%2F%23'
+    ]
+    'argc' => 1
+]
+2016-10-18 13:59:44 [::1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: mobile/#' in /Users/M/WWW/www.maliang.net.cn/vendor/yiisoft/yii2/base/Controller.php:125
+Stack trace:
+#0 /Users/M/WWW/www.maliang.net.cn/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('#', Array)
+#1 /Users/M/WWW/www.maliang.net.cn/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('mobile/#', Array)
+#2 /Users/M/WWW/www.maliang.net.cn/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /Users/M/WWW/www.maliang.net.cn/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Users/M/WWW/www.maliang.net.cn/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /Users/M/WWW/www.maliang.net.cn/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Users/M/WWW/www.maliang.net.cn/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2016-10-18 13:59:44 [::1][-][-][info][application] $_GET = [
+    'r' => 'mobile/#'
+]
+
+$_COOKIE = [
+    '_csrf' => '10a51765fcf1c9658b735e9154c14cea66a10f2c1ffc4950970b173929cb05c9a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"cYIQ1G9-TMghTf5ITQp-1oVN6zQJyHT7\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.maliang.net.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.maliang.net.cn/index.php?r=mobile%2F%23'
+    'HTTP_COOKIE' => '_csrf=10a51765fcf1c9658b735e9154c14cea66a10f2c1ffc4950970b173929cb05c9a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22cYIQ1G9-TMghTf5ITQp-1oVN6zQJyHT7%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'www.maliang.net.cn'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Users/M/WWW/www.maliang.net.cn/web'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Users/M/WWW/www.maliang.net.cn/web/index.php'
+    'REMOTE_PORT' => '57000'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=mobile%2F%23'
+    'REQUEST_URI' => '/index.php?r=mobile%2F%23'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1476770384.86
+    'REQUEST_TIME' => 1476770384
+    'argv' => [
+        0 => 'r=mobile%2F%23'
+    ]
+    'argc' => 1
+]
+2016-10-18 13:59:48 [::1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: mobile/#' in /Users/M/WWW/www.maliang.net.cn/vendor/yiisoft/yii2/base/Controller.php:125
+Stack trace:
+#0 /Users/M/WWW/www.maliang.net.cn/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('#', Array)
+#1 /Users/M/WWW/www.maliang.net.cn/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('mobile/#', Array)
+#2 /Users/M/WWW/www.maliang.net.cn/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /Users/M/WWW/www.maliang.net.cn/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Users/M/WWW/www.maliang.net.cn/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /Users/M/WWW/www.maliang.net.cn/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Users/M/WWW/www.maliang.net.cn/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2016-10-18 13:59:48 [::1][-][-][info][application] $_GET = [
+    'r' => 'mobile/#'
+]
+
+$_COOKIE = [
+    '_csrf' => '10a51765fcf1c9658b735e9154c14cea66a10f2c1ffc4950970b173929cb05c9a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"cYIQ1G9-TMghTf5ITQp-1oVN6zQJyHT7\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.maliang.net.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.maliang.net.cn/index.php?r=mobile%2F%23'
+    'HTTP_COOKIE' => '_csrf=10a51765fcf1c9658b735e9154c14cea66a10f2c1ffc4950970b173929cb05c9a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22cYIQ1G9-TMghTf5ITQp-1oVN6zQJyHT7%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'www.maliang.net.cn'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Users/M/WWW/www.maliang.net.cn/web'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Users/M/WWW/www.maliang.net.cn/web/index.php'
+    'REMOTE_PORT' => '57000'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=mobile%2F%23'
+    'REQUEST_URI' => '/index.php?r=mobile%2F%23'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1476770388.65
+    'REQUEST_TIME' => 1476770388
+    'argv' => [
+        0 => 'r=mobile%2F%23'
+    ]
+    'argc' => 1
+]
+2016-10-18 13:59:49 [::1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: mobile/#' in /Users/M/WWW/www.maliang.net.cn/vendor/yiisoft/yii2/base/Controller.php:125
+Stack trace:
+#0 /Users/M/WWW/www.maliang.net.cn/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('#', Array)
+#1 /Users/M/WWW/www.maliang.net.cn/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('mobile/#', Array)
+#2 /Users/M/WWW/www.maliang.net.cn/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /Users/M/WWW/www.maliang.net.cn/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Users/M/WWW/www.maliang.net.cn/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /Users/M/WWW/www.maliang.net.cn/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Users/M/WWW/www.maliang.net.cn/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2016-10-18 13:59:49 [::1][-][-][info][application] $_GET = [
+    'r' => 'mobile/#'
+]
+
+$_COOKIE = [
+    '_csrf' => '10a51765fcf1c9658b735e9154c14cea66a10f2c1ffc4950970b173929cb05c9a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"cYIQ1G9-TMghTf5ITQp-1oVN6zQJyHT7\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.maliang.net.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.maliang.net.cn/index.php?r=mobile%2F%23'
+    'HTTP_COOKIE' => '_csrf=10a51765fcf1c9658b735e9154c14cea66a10f2c1ffc4950970b173929cb05c9a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22cYIQ1G9-TMghTf5ITQp-1oVN6zQJyHT7%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'www.maliang.net.cn'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Users/M/WWW/www.maliang.net.cn/web'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Users/M/WWW/www.maliang.net.cn/web/index.php'
+    'REMOTE_PORT' => '57000'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=mobile%2F%23'
+    'REQUEST_URI' => '/index.php?r=mobile%2F%23'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1476770389.9
+    'REQUEST_TIME' => 1476770389
+    'argv' => [
+        0 => 'r=mobile%2F%23'
+    ]
+    'argc' => 1
+]
+2016-10-18 13:59:50 [::1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: mobile/#' in /Users/M/WWW/www.maliang.net.cn/vendor/yiisoft/yii2/base/Controller.php:125
+Stack trace:
+#0 /Users/M/WWW/www.maliang.net.cn/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('#', Array)
+#1 /Users/M/WWW/www.maliang.net.cn/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('mobile/#', Array)
+#2 /Users/M/WWW/www.maliang.net.cn/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /Users/M/WWW/www.maliang.net.cn/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Users/M/WWW/www.maliang.net.cn/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /Users/M/WWW/www.maliang.net.cn/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Users/M/WWW/www.maliang.net.cn/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2016-10-18 13:59:50 [::1][-][-][info][application] $_GET = [
+    'r' => 'mobile/#'
+]
+
+$_COOKIE = [
+    '_csrf' => '10a51765fcf1c9658b735e9154c14cea66a10f2c1ffc4950970b173929cb05c9a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"cYIQ1G9-TMghTf5ITQp-1oVN6zQJyHT7\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.maliang.net.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.maliang.net.cn/index.php?r=mobile%2F%23'
+    'HTTP_COOKIE' => '_csrf=10a51765fcf1c9658b735e9154c14cea66a10f2c1ffc4950970b173929cb05c9a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22cYIQ1G9-TMghTf5ITQp-1oVN6zQJyHT7%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'www.maliang.net.cn'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Users/M/WWW/www.maliang.net.cn/web'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Users/M/WWW/www.maliang.net.cn/web/index.php'
+    'REMOTE_PORT' => '57000'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=mobile%2F%23'
+    'REQUEST_URI' => '/index.php?r=mobile%2F%23'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1476770390.89
+    'REQUEST_TIME' => 1476770390
+    'argv' => [
+        0 => 'r=mobile%2F%23'
+    ]
+    'argc' => 1
+]
+2016-10-18 13:59:53 [::1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: mobile/#' in /Users/M/WWW/www.maliang.net.cn/vendor/yiisoft/yii2/base/Controller.php:125
+Stack trace:
+#0 /Users/M/WWW/www.maliang.net.cn/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('#', Array)
+#1 /Users/M/WWW/www.maliang.net.cn/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('mobile/#', Array)
+#2 /Users/M/WWW/www.maliang.net.cn/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /Users/M/WWW/www.maliang.net.cn/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Users/M/WWW/www.maliang.net.cn/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /Users/M/WWW/www.maliang.net.cn/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Users/M/WWW/www.maliang.net.cn/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2016-10-18 13:59:53 [::1][-][-][info][application] $_GET = [
+    'r' => 'mobile/#'
+]
+
+$_COOKIE = [
+    '_csrf' => '10a51765fcf1c9658b735e9154c14cea66a10f2c1ffc4950970b173929cb05c9a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"cYIQ1G9-TMghTf5ITQp-1oVN6zQJyHT7\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.maliang.net.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.maliang.net.cn/index.php?r=mobile%2F%23'
+    'HTTP_COOKIE' => '_csrf=10a51765fcf1c9658b735e9154c14cea66a10f2c1ffc4950970b173929cb05c9a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22cYIQ1G9-TMghTf5ITQp-1oVN6zQJyHT7%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'www.maliang.net.cn'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Users/M/WWW/www.maliang.net.cn/web'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Users/M/WWW/www.maliang.net.cn/web/index.php'
+    'REMOTE_PORT' => '57000'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=mobile%2F%23'
+    'REQUEST_URI' => '/index.php?r=mobile%2F%23'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1476770393.4
+    'REQUEST_TIME' => 1476770393
+    'argv' => [
+        0 => 'r=mobile%2F%23'
+    ]
+    'argc' => 1
+]
+2016-10-18 14:00:09 [::1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: mobile/#' in /Users/M/WWW/www.maliang.net.cn/vendor/yiisoft/yii2/base/Controller.php:125
+Stack trace:
+#0 /Users/M/WWW/www.maliang.net.cn/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('#', Array)
+#1 /Users/M/WWW/www.maliang.net.cn/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('mobile/#', Array)
+#2 /Users/M/WWW/www.maliang.net.cn/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /Users/M/WWW/www.maliang.net.cn/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Users/M/WWW/www.maliang.net.cn/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /Users/M/WWW/www.maliang.net.cn/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Users/M/WWW/www.maliang.net.cn/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2016-10-18 14:00:09 [::1][-][-][info][application] $_GET = [
+    'r' => 'mobile/#'
+]
+
+$_COOKIE = [
+    '_csrf' => '10a51765fcf1c9658b735e9154c14cea66a10f2c1ffc4950970b173929cb05c9a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"cYIQ1G9-TMghTf5ITQp-1oVN6zQJyHT7\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.maliang.net.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.maliang.net.cn/index.php?r=mobile%2F%23'
+    'HTTP_COOKIE' => '_csrf=10a51765fcf1c9658b735e9154c14cea66a10f2c1ffc4950970b173929cb05c9a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22cYIQ1G9-TMghTf5ITQp-1oVN6zQJyHT7%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'www.maliang.net.cn'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Users/M/WWW/www.maliang.net.cn/web'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Users/M/WWW/www.maliang.net.cn/web/index.php'
+    'REMOTE_PORT' => '57013'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=mobile%2F%23'
+    'REQUEST_URI' => '/index.php?r=mobile%2F%23'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1476770409.03
+    'REQUEST_TIME' => 1476770409
+    'argv' => [
+        0 => 'r=mobile%2F%23'
+    ]
+    'argc' => 1
+]
+2016-10-18 14:00:14 [::1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: mobile/#' in /Users/M/WWW/www.maliang.net.cn/vendor/yiisoft/yii2/base/Controller.php:125
+Stack trace:
+#0 /Users/M/WWW/www.maliang.net.cn/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('#', Array)
+#1 /Users/M/WWW/www.maliang.net.cn/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('mobile/#', Array)
+#2 /Users/M/WWW/www.maliang.net.cn/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /Users/M/WWW/www.maliang.net.cn/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Users/M/WWW/www.maliang.net.cn/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /Users/M/WWW/www.maliang.net.cn/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Users/M/WWW/www.maliang.net.cn/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2016-10-18 14:00:14 [::1][-][-][info][application] $_GET = [
+    'r' => 'mobile/#'
+]
+
+$_COOKIE = [
+    '_csrf' => '10a51765fcf1c9658b735e9154c14cea66a10f2c1ffc4950970b173929cb05c9a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"cYIQ1G9-TMghTf5ITQp-1oVN6zQJyHT7\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.maliang.net.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.maliang.net.cn/index.php?r=mobile%2F%23'
+    'HTTP_COOKIE' => '_csrf=10a51765fcf1c9658b735e9154c14cea66a10f2c1ffc4950970b173929cb05c9a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22cYIQ1G9-TMghTf5ITQp-1oVN6zQJyHT7%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'www.maliang.net.cn'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Users/M/WWW/www.maliang.net.cn/web'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Users/M/WWW/www.maliang.net.cn/web/index.php'
+    'REMOTE_PORT' => '57017'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=mobile%2F%23'
+    'REQUEST_URI' => '/index.php?r=mobile%2F%23'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1476770414.81
+    'REQUEST_TIME' => 1476770414
+    'argv' => [
+        0 => 'r=mobile%2F%23'
+    ]
+    'argc' => 1
+]
+2016-10-18 14:00:46 [::1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: mobile/#' in /Users/M/WWW/www.maliang.net.cn/vendor/yiisoft/yii2/base/Controller.php:125
+Stack trace:
+#0 /Users/M/WWW/www.maliang.net.cn/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('#', Array)
+#1 /Users/M/WWW/www.maliang.net.cn/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('mobile/#', Array)
+#2 /Users/M/WWW/www.maliang.net.cn/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /Users/M/WWW/www.maliang.net.cn/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Users/M/WWW/www.maliang.net.cn/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /Users/M/WWW/www.maliang.net.cn/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Users/M/WWW/www.maliang.net.cn/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2016-10-18 14:00:46 [::1][-][-][info][application] $_GET = [
+    'r' => 'mobile/#'
+]
+
+$_COOKIE = [
+    '_csrf' => '10a51765fcf1c9658b735e9154c14cea66a10f2c1ffc4950970b173929cb05c9a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"cYIQ1G9-TMghTf5ITQp-1oVN6zQJyHT7\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.maliang.net.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.maliang.net.cn/index.php?r=mobile%2F%23'
+    'HTTP_COOKIE' => '_csrf=10a51765fcf1c9658b735e9154c14cea66a10f2c1ffc4950970b173929cb05c9a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22cYIQ1G9-TMghTf5ITQp-1oVN6zQJyHT7%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'www.maliang.net.cn'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Users/M/WWW/www.maliang.net.cn/web'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Users/M/WWW/www.maliang.net.cn/web/index.php'
+    'REMOTE_PORT' => '57023'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=mobile%2F%23'
+    'REQUEST_URI' => '/index.php?r=mobile%2F%23'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1476770446.36
+    'REQUEST_TIME' => 1476770446
+    'argv' => [
+        0 => 'r=mobile%2F%23'
+    ]
+    'argc' => 1
+]
+2016-10-18 14:01:05 [::1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: mobile/#' in /Users/M/WWW/www.maliang.net.cn/vendor/yiisoft/yii2/base/Controller.php:125
+Stack trace:
+#0 /Users/M/WWW/www.maliang.net.cn/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('#', Array)
+#1 /Users/M/WWW/www.maliang.net.cn/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('mobile/#', Array)
+#2 /Users/M/WWW/www.maliang.net.cn/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /Users/M/WWW/www.maliang.net.cn/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Users/M/WWW/www.maliang.net.cn/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /Users/M/WWW/www.maliang.net.cn/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Users/M/WWW/www.maliang.net.cn/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2016-10-18 14:01:05 [::1][-][-][info][application] $_GET = [
+    'r' => 'mobile/#'
+]
+
+$_COOKIE = [
+    '_csrf' => '10a51765fcf1c9658b735e9154c14cea66a10f2c1ffc4950970b173929cb05c9a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"cYIQ1G9-TMghTf5ITQp-1oVN6zQJyHT7\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.maliang.net.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.maliang.net.cn/index.php?r=mobile%2F%23'
+    'HTTP_COOKIE' => '_csrf=10a51765fcf1c9658b735e9154c14cea66a10f2c1ffc4950970b173929cb05c9a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22cYIQ1G9-TMghTf5ITQp-1oVN6zQJyHT7%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'www.maliang.net.cn'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Users/M/WWW/www.maliang.net.cn/web'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Users/M/WWW/www.maliang.net.cn/web/index.php'
+    'REMOTE_PORT' => '57030'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=mobile%2F%23'
+    'REQUEST_URI' => '/index.php?r=mobile%2F%23'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1476770465.36
+    'REQUEST_TIME' => 1476770465
+    'argv' => [
+        0 => 'r=mobile%2F%23'
+    ]
+    'argc' => 1
+]
+2016-10-18 14:05:14 [::1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: mobile/#' in /Users/M/WWW/www.maliang.net.cn/vendor/yiisoft/yii2/base/Controller.php:125
+Stack trace:
+#0 /Users/M/WWW/www.maliang.net.cn/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('#', Array)
+#1 /Users/M/WWW/www.maliang.net.cn/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('mobile/#', Array)
+#2 /Users/M/WWW/www.maliang.net.cn/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /Users/M/WWW/www.maliang.net.cn/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Users/M/WWW/www.maliang.net.cn/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /Users/M/WWW/www.maliang.net.cn/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Users/M/WWW/www.maliang.net.cn/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2016-10-18 14:05:14 [::1][-][-][info][application] $_GET = [
+    'r' => 'mobile/#'
+]
+
+$_COOKIE = [
+    '_csrf' => '10a51765fcf1c9658b735e9154c14cea66a10f2c1ffc4950970b173929cb05c9a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"cYIQ1G9-TMghTf5ITQp-1oVN6zQJyHT7\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.maliang.net.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.maliang.net.cn/index.php?r=mobile%2F%23'
+    'HTTP_COOKIE' => '_csrf=10a51765fcf1c9658b735e9154c14cea66a10f2c1ffc4950970b173929cb05c9a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22cYIQ1G9-TMghTf5ITQp-1oVN6zQJyHT7%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'www.maliang.net.cn'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Users/M/WWW/www.maliang.net.cn/web'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Users/M/WWW/www.maliang.net.cn/web/index.php'
+    'REMOTE_PORT' => '57074'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=mobile%2F%23'
+    'REQUEST_URI' => '/index.php?r=mobile%2F%23'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1476770714.75
+    'REQUEST_TIME' => 1476770714
+    'argv' => [
+        0 => 'r=mobile%2F%23'
+    ]
+    'argc' => 1
+]
+2016-10-18 14:07:38 [::1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: mobile/#' in /Users/M/WWW/www.maliang.net.cn/vendor/yiisoft/yii2/base/Controller.php:125
+Stack trace:
+#0 /Users/M/WWW/www.maliang.net.cn/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('#', Array)
+#1 /Users/M/WWW/www.maliang.net.cn/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('mobile/#', Array)
+#2 /Users/M/WWW/www.maliang.net.cn/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /Users/M/WWW/www.maliang.net.cn/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Users/M/WWW/www.maliang.net.cn/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /Users/M/WWW/www.maliang.net.cn/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Users/M/WWW/www.maliang.net.cn/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2016-10-18 14:07:38 [::1][-][-][info][application] $_GET = [
+    'r' => 'mobile/#'
+]
+
+$_COOKIE = [
+    '_csrf' => '10a51765fcf1c9658b735e9154c14cea66a10f2c1ffc4950970b173929cb05c9a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"cYIQ1G9-TMghTf5ITQp-1oVN6zQJyHT7\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.maliang.net.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.maliang.net.cn/index.php?r=mobile%2F%23'
+    'HTTP_COOKIE' => '_csrf=10a51765fcf1c9658b735e9154c14cea66a10f2c1ffc4950970b173929cb05c9a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22cYIQ1G9-TMghTf5ITQp-1oVN6zQJyHT7%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'www.maliang.net.cn'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Users/M/WWW/www.maliang.net.cn/web'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Users/M/WWW/www.maliang.net.cn/web/index.php'
+    'REMOTE_PORT' => '57105'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=mobile%2F%23'
+    'REQUEST_URI' => '/index.php?r=mobile%2F%23'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1476770858.8
+    'REQUEST_TIME' => 1476770858
+    'argv' => [
+        0 => 'r=mobile%2F%23'
+    ]
+    'argc' => 1
+]

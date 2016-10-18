@@ -4,9 +4,7 @@
 /* @var $content string */
 
 use yii\helpers\Html;
-use yii\bootstrap\Nav;
-use yii\bootstrap\NavBar;
-use yii\widgets\Breadcrumbs;
+use yii\helpers\Url;
 use app\assets\MobileAsset;
 
 MobileAsset::register($this);
@@ -40,7 +38,7 @@ $more_menu = \Yii::$app->params['more_menu.php'];
 	            foreach ($more_menu as $key=>$val){
 	        ?>
 	            <td class="table-bordered">
-	                <a href="<?=$val['url']?>" >
+	                <a href="<?=$val['url'] ? Url::toRoute($val['url']) : 'javascript:void(0)'?>" <?=isset($val['id']) ? 'id="'.$val['id'].'"' : ''?>>
 	                    <span class="glyphicon <?=$val['icon']?>"></span>
 	                    <?=$val['name']?>
 	                </a>
@@ -58,7 +56,7 @@ $more_menu = \Yii::$app->params['more_menu.php'];
 	            foreach ($menu as $val){
 	        ?>
 	            <li role="presentation" class="ml-li-auto <?=isset($val['level_menu']) ? 'dropdown' : '';?> <?=isset($val['more']) ? 'more-work' : ''?> ">
-	                <a <?=isset($val['level_menu']) ? 'class="dropdown-toggle" data-toggle="dropdown"' : ''?> href="<?=$val['url']?>">
+	                <a <?=isset($val['level_menu']) ? 'class="dropdown-toggle" data-toggle="dropdown"' : ''?> href="<?=$val['url'] ? Url::toRoute($val['url']) : 'javascript:void(0)'?>">
 	                     <span class="glyphicon <?=$val['icon']?>"></span>
 	                     <?=$val['name']?>
 	                </a>
@@ -73,7 +71,7 @@ $more_menu = \Yii::$app->params['more_menu.php'];
 	                    <li class="divider"></li>
 	                    <?php }?>
 						<li class="text-center">
-						 <a href="<?=$v['url']?>">
+						 <a href="<?=$v['url'] ? Url::toRoute($v['url']) : 'javascript:void(0)'?>">
 						    <span class="glyphicon <?=$v['icon']?>"></span> <?=$v['name']?></a>
 						</li>
 	                    <?php }?>
@@ -83,6 +81,9 @@ $more_menu = \Yii::$app->params['more_menu.php'];
 	        <?php }?>
 	    </ul>
 	</nav>
+</div>
+<div class="none">
+	<a href="tel:13141234768" id="tell-phone"></a>
 </div>
 <?php $this->endBody() ?>
 </body>
