@@ -13,7 +13,7 @@ return [
             [
                 'icon'=>'glyphicon-music',
                 'name'=>'Music',
-                'toUrl'=>'',
+                'toUrl'=>'music/index',
             ],
             [
                 'icon'=>'glyphicon-facetime-video',

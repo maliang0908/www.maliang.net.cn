@@ -234,21 +234,3 @@ a:hover{ text-decoration:none; }
     _left:expression(eval(document.documentElement.clientWidth/2+document.documentElement.scrollLeft));
     z-index:10001;
 }
-.scan-code{
-    background: #000 none repeat scroll 0 0;
-    height: 100%;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 100%;
-    z-index: 10000;
-}
-
-#contentHolder{
-    width:80%;
-    position:fixed;
-    left:50%;
-    top:50%;
-    margin-left:-40%;
-    margin-top:-40%;
-}

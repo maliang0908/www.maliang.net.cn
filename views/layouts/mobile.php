@@ -86,19 +86,8 @@ $more_menu = \Yii::$app->params['more_menu.php'];
 <div class="qr-code none">
 	<img src="<?=Url::toRoute('mobile/qr-code')?>" />
 </div>
-<!-- 扫描二维码 -->
-<div class="scan-code ">
-	<div id="support"></div>
-	<div id="contentHolder">
-		<video id="video" width="100%" height="60%" autoplay>
-		</video>
-		<canvas style="display:none; background-color:#F00;" id="canvas" width="100%" height="60%">
-		</canvas> <br/>
-		<button id="snap" style="display:none; height:50px; width:120px;">开始扫描</button>
-	</div>
-</div>
 <!-- 弹窗 -->
-<div class="pub-bg"></div>
+<div class="pub-bg none"></div>
 <div class="pub-tip-box none">
 	<div class="pub-tip-con ">
 		<span class="db tc pub-tip-text mt20 f14">消息提示</span>
