@@ -1,0 +1,36 @@
+<?php
+return [
+    [
+        'icon'=>'glyphicon-home',
+        'name'=>'Home',
+        'url'=>'#',
+    ],
+    [
+        'icon'=>'glyphicon-th-list',
+        'name'=>'Leisure',
+        'url'=>'#',
+        'level_menu'=>[
+            [
+                'icon'=>'glyphicon-music',
+                'name'=>'Music',
+                'url'=>'#',
+            ],
+            [
+                'icon'=>'glyphicon-facetime-video',
+                'name'=>'Video',
+                'url'=>'#',
+            ],
+            [
+                'icon'=>'glyphicon-picture',
+                'name'=>'Picture',
+                'url'=>'#',
+            ]
+        ]
+    ],
+    [
+        'icon'=>'glyphicon-th',
+        'name'=>'More',
+        'url'=>'#',
+        'more'=>true,
+    ]
+];

@@ -1,0 +1,79 @@
+html,body{
+    height: 100%;
+}
+.content {
+    height: 100%;
+    background: url("../images/bg.jpg") no-repeat;
+    filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='scale')";
+    -moz-background-size:100% 100%;
+    background-size:100% 100%;
+}
+.pub-bg{
+    background: #000 none repeat scroll 0 0;
+    height: 100%;
+    left: 0;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+.pub-tip-box{
+    width:400px;
+    height:400px;
+    position:fixed;
+    left:50%;
+    top:50%;
+    margin-left:-150px;
+    margin-top:-75px;
+    background:#fff;
+    _position:absolute;
+    _top:expression(eval(document.documentElement.clientHeight/2+document.documentElement.scrollTop));
+    _left:expression(eval(document.documentElement.clientWidth/2+document.documentElement.scrollLeft));
+    z-index:1000;
+}
+.qr-code{
+    width:400px;
+    height:400px;
+    position:fixed;
+    left:50%;
+    top:50%;
+    margin-left:-200px;
+    margin-top:-200px;
+    background:#fff;
+    z-index:1000;
+}
+.qr-code img{
+    cursor: pointer;
+}
+.pub-tip-box {
+    background: #fff none repeat scroll 0 0;
+    height: 150px;
+    left: 50%;
+    margin-left: -150px;
+    margin-top: -75px;
+    position: fixed;
+    top: 50%;
+    width: 300px;
+    z-index: 1000;
+}
+.pub-tip-con {
+    padding: 10px 20px;
+}
+.pub-tip-text {
+    line-height: 30px;
+}
+.pub-tip-btn {
+    background: #44c0e4 none repeat scroll 0 0;
+    border-radius: 3px;
+    color: #fff;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    transition: all 0.2s ease-in 0s;
+    width: 106px;
+}
+.pub-tip-btn:hover {
+    background: #35b3d7 none repeat scroll 0 0;
+    text-decoration: none;
+}
