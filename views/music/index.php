@@ -25,7 +25,7 @@
 <section class="con_mainUP" id="pageA">
     <!-- 头部显示 -->
     <header class="conUp_header">
-        <span class="returnOnePage iconfont" onclick="window.location.href='/'">&#xe608;</span>
+      <!--  <span class="returnOnePage iconfont" onclick="window.location.href='/'">&#xe608;</span> -->
         <p class="pageA_title">
             带上你和音乐一起去旅行..
         </p>
