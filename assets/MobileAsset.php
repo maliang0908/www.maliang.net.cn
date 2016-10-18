@@ -25,7 +25,6 @@ class MobileAsset extends AssetBundle
         'js/jquery.min.js',
         'js/mobile.js',
         'js/bootstrap.min.js',
-        'js/scancode.js',
     ];
     public $depends = [
         //'yii\web\YiiAsset',

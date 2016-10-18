@@ -25,6 +25,7 @@
 <section class="con_mainUP" id="pageA">
     <!-- 头部显示 -->
     <header class="conUp_header">
+        <span class="returnOnePage iconfont" onclick="window.location.href='/'">&#xe608;</span>
         <p class="pageA_title">
             带上你和音乐一起去旅行..
         </p>
@@ -35,12 +36,12 @@
     <!-- 中间列表容器 -->
     <section class="con_container">
         <ul class="misicClassList" id="misicClassList">
-            <!-- <li class="showNow">
+            <!--<li class="showNow">
                 <span>中文</span>
             </li>
             <li class="playNow">
                 <span>英文</span>
-            </li> -->
+            </li>-->
         </ul>
         <ul class="misicClassList" id="protect">
             <li id="allSong">
@@ -98,7 +99,7 @@
                 <!-- 第一个，歌曲列表页面 -->
                 <div class="swiper-slide">
                     <ul class="songList" id="songList">
-                        <!-- <li>
+                         <!--<li>
                             <span class="songNumber">01</span>
                             <div class="songListInformation">
                                 <p>李白</p>
