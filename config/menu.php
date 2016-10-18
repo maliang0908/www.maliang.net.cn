@@ -18,7 +18,7 @@ return [
             [
                 'icon'=>'glyphicon-facetime-video',
                 'name'=>'Video',
-                'toUrl'=>'',
+                'toUrl'=>'video/index',
             ],
             [
                 'icon'=>'glyphicon-picture',
