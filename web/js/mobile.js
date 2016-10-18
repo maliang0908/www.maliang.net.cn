@@ -36,7 +36,7 @@ $(function () {
     });
 
     // 电话呼叫
-    $('#tell-me').click(function(){
+    $('#tell-me').on('click',function(){
         $('#tell-phone').click();
     });
 });
