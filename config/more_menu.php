@@ -3,37 +3,40 @@ return [
     [
         'icon'=>'glyphicon-envelope',
         'name'=>'Email',
-        'url'=>'',
+        'toUrl'=>'',
     ],
     [
         'icon'=>'glyphicon-user',
         'name'=>'User',
-        'url'=>'',
+        'toUrl'=>'',
     ],
     [
         'icon'=>'glyphicon-camera',
         'name'=>'Camera',
-        'url'=>'',
+        'toUrl'=>'',
     ],
     [
         'icon'=>'glyphicon-phone',
         'name'=>'Phone',
-        'url'=>'',
+        'totoUrl'=>'',
+        'url'=>'tel:13141234768',
         'id'=>'tell-me'
     ],
     [
         'icon'=>'glyphicon-qrcode',
         'name'=>'二维码',
-        'url'=>'',
+        'toUrl'=>'',
+        'url'=>'javascript:void(0)',
+        'id'=>'qr-code'
     ],
     [
         'icon'=>'glyphicon-map-marker',
         'name'=>'地图',
-        'url'=>'',
+        'toUrl'=>'',
     ],
     [
         'icon'=>'glyphicon-cog',
         'name'=>'设置',
-        'url'=>'',
+        'toUrl'=>'',
     ],
 ];

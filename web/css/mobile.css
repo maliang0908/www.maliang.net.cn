@@ -193,3 +193,44 @@ a:hover{ text-decoration:none; }
 .more-work-menu a:hover{
     text-decoration:none;
 }
+.pub-bg{
+    background: #000 none repeat scroll 0 0;
+    height: 100%;
+    left: 0;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 10000;
+}
+.pub-tip-box{
+    width:100%;
+    height:100%;
+    position:fixed;
+    left:50%;
+    top:50%;
+    margin-left:-150px;
+    margin-top:-75px;
+    background:#fff;
+    _position:absolute;
+    _top:expression(eval(document.documentElement.clientHeight/2+document.documentElement.scrollTop));
+    _left:expression(eval(document.documentElement.clientWidth/2+document.documentElement.scrollLeft));
+    z-index:10001;
+}
+.qr-code{
+    width: 100%;
+    height: 100%;
+}
+.qr-code img{
+    width:80%;
+    position:fixed;
+    left:50%;
+    top:50%;
+    margin-left:-40%;
+    margin-top:-40%;
+    background:#fff;
+    _position:absolute;
+    _top:expression(eval(document.documentElement.clientHeight/2+document.documentElement.scrollTop));
+    _left:expression(eval(document.documentElement.clientWidth/2+document.documentElement.scrollLeft));
+    z-index:10001;
+}

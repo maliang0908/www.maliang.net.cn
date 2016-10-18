@@ -3,34 +3,34 @@ return [
     [
         'icon'=>'glyphicon-home',
         'name'=>'Home',
-        'url'=>'',
+        'toUrl'=>'',
     ],
     [
         'icon'=>'glyphicon-th-list',
         'name'=>'Leisure',
-        'url'=>'',
+        'toUrl'=>'',
         'level_menu'=>[
             [
                 'icon'=>'glyphicon-music',
                 'name'=>'Music',
-                'url'=>'',
+                'toUrl'=>'',
             ],
             [
                 'icon'=>'glyphicon-facetime-video',
                 'name'=>'Video',
-                'url'=>'',
+                'toUrl'=>'',
             ],
             [
                 'icon'=>'glyphicon-picture',
                 'name'=>'Picture',
-                'url'=>'',
+                'toUrl'=>'',
             ]
         ]
     ],
     [
         'icon'=>'glyphicon-th',
         'name'=>'More',
-        'url'=>'',
+        'toUrl'=>'',
         'more'=>true,
     ]
 ];

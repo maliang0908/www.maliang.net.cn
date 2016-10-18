@@ -38,7 +38,7 @@ $more_menu = \Yii::$app->params['more_menu.php'];
 	            foreach ($more_menu as $key=>$val){
 	        ?>
 	            <td class="table-bordered">
-	                <a href="<?=$val['url'] ? Url::toRoute($val['url']) : 'javascript:void(0)'?>" <?=isset($val['id']) ? 'id="'.$val['id'].'"' : ''?>>
+	                <a href="<?=$val['toUrl'] ? Url::toRoute($val['toUrl']) : $val['url']?>" <?=isset($val['id']) ? 'id="'.$val['id'].'"' : ''?>>
 	                    <span class="glyphicon <?=$val['icon']?>"></span>
 	                    <?=$val['name']?>
 	                </a>
@@ -56,7 +56,7 @@ $more_menu = \Yii::$app->params['more_menu.php'];
 	            foreach ($menu as $val){
 	        ?>
 	            <li role="presentation" class="ml-li-auto <?=isset($val['level_menu']) ? 'dropdown' : '';?> <?=isset($val['more']) ? 'more-work' : ''?> ">
-	                <a <?=isset($val['level_menu']) ? 'class="dropdown-toggle" data-toggle="dropdown"' : ''?> href="<?=$val['url'] ? Url::toRoute($val['url']) : 'javascript:void(0)'?>">
+	                <a <?=isset($val['level_menu']) ? 'class="dropdown-toggle" data-toggle="dropdown"' : ''?> href="<?=$val['toUrl'] ? Url::toRoute($val['toUrl']) : 'javascript:void(0)'?>">
 	                     <span class="glyphicon <?=$val['icon']?>"></span>
 	                     <?=$val['name']?>
 	                </a>
@@ -71,7 +71,7 @@ $more_menu = \Yii::$app->params['more_menu.php'];
 	                    <li class="divider"></li>
 	                    <?php }?>
 						<li class="text-center">
-						 <a href="<?=$v['url'] ? Url::toRoute($v['url']) : 'javascript:void(0)'?>">
+						 <a href="<?=$v['toUrl'] ? Url::toRoute($v['toUrl']) : 'javascript:void(0)'?>">
 						    <span class="glyphicon <?=$v['icon']?>"></span> <?=$v['name']?></a>
 						</li>
 	                    <?php }?>
@@ -82,8 +82,19 @@ $more_menu = \Yii::$app->params['more_menu.php'];
 	    </ul>
 	</nav>
 </div>
-<div class="none">
-	<a href="tel:13141234768" id="tell-phone"></a>
+<!-- 二维码 -->
+<div class="qr-code none">
+	<img src="<?=Url::toRoute('mobile/qr-code')?>" />
+</div>
+<!-- 弹窗 -->
+<div class="pub-bg none"></div>
+<div class="pub-tip-box none">
+	<div class="pub-tip-con ">
+		<span class="db tc pub-tip-text mt20 f14">消息提示</span>
+		<div class="tc mt20">
+			<a class="pub-tip-btn dib f14" href="javascript:;">确定</a>
+		</div>
+	</div>
 </div>
 <?php $this->endBody() ?>
 </body>

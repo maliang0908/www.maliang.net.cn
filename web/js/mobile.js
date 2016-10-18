@@ -35,8 +35,12 @@ $(function () {
         }
     });
 
-    // 电话呼叫
-    $('#tell-me').on('click',function(){
-        $('#tell-phone').click();
+    // 二维码
+    $('#qr-code').click(function(){
+        $('.pub-bg,.qr-code').show();
+    });
+
+    $('.qr-code img').on('click',function(){
+        $('.pub-bg,.qr-code').hide();
     });
 });
