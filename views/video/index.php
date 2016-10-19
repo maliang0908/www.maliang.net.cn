@@ -16,8 +16,30 @@
         您的浏览器不支持HTML5音频
     </audio>-->
 </div>
+<script src="/js/jquery.min.js"></script>
 <script src="/js/zy.media.min.js"></script>
 <script>
+    $(function(){
+        horizontalScreen('zy_media');
+    });
+    /*强制横屏*/
+    function horizontalScreen(className){
+        // transform 强制横屏
+        var conW = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+        var conH = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
+        // transform: rotate(90deg); width: 667px; height: 375px;transform-origin:28% 50%;
+        //var iosTopHe = 0;//若有其他样式判断，写于此
+
+        $(className).css({
+            "transform":"rotate(90deg) translate("+((conH-conW)/2)+"px,"+((conH-conW)/2)+"px)",
+            "width":conH+"px",
+            "height":conW+"px",
+            //"margin-top":iosTopHe+"px",
+            // "border-left":iosTopHe+"px solid #000",
+            "transform-origin":"center center",
+            "-webkit-transform-origin": "center center"
+        });
+    }
     zymedia('video');
 </script>
 </body>
