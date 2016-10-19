@@ -6,7 +6,7 @@
     <title>媒体播放器</title>
     <link rel="stylesheet" href="/css/zy.media.min.css">
 </head>
-<body style="overflow-y:hidden">
+<body style="overflow-y:hidden;margin: 0;padding: 0">
 <div class="zy_media">
     <video poster="/images/test.jpg" data-config='{"mediaTitle": "《疯狂动物城》--腾讯视频"}'>
         <source src="/public/video/test.mp4" type="video/mp4">
