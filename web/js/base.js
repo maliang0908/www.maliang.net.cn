@@ -2,26 +2,36 @@
  * Created by M on 16/10/11.
  */
 $(function () {
-    $('#qr-code').click(function(){
-        $('.pub-bg,.qr-code').show();
+    // 轮播图
+    $('.carousel').carousel();
+    scrollShow();
+    $(window).scroll(scrollShow);
+
+    $('img').click(function(){
+        alertShow($(this).attr('src'));
     });
 
-    $('.qr-code img').on('click',function(){
-        $('.pub-bg,.qr-code').hide();
+    $('.list-group a').click(function(){
+        var url = $(this).data('url');
+        $('.zy_wrap audio').attr('src',url);
+        zymedia('audio');
+        $('.zy_play').click();
     });
 });
-
-// 提示框显示
-function alertShow(msg,url){
-    if(msg){
-        $('.pub-tip-box').find('span').text(msg);
+function scrollShow(){
+    var H = $(document).scrollTop();
+    if(H>390){
+        $('#myScrollspy ul').show();
+    }else{
+        $('#myScrollspy ul').hide();
     }
-    $('.pub-tip-box,.opc-bg').show();
-    // 关闭提示框
-    $('.pub-tip-box').on('click',function(){
-        $('.pub-tip-box,.opc-bg').hide();
-        if(url){
-            window.location.href = url;
-        }
-    });
+}
+function alertShow(msg){
+
+    var str = '<div class="alert alert-warning navbar-fixed-top">' +
+        '<a href="#" class="close" data-dismiss="alert">&times;</a>' +
+        '<strong>警告！</strong>'+msg+'。 </div>';
+    $('body').find('.alert').remove();
+    $('body').append(str);
+
 }

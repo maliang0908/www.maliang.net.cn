@@ -9,7 +9,7 @@ $config = [
     'components' => [
         'request' => [
             // !!! insert a secret key in the following (if it is empty) - this is required by cookie validation
-            'cookieValidationKey' => 'www.maliang.net.cn',
+            'cookieValidationKey' => 'maliang',
         ],
         'cache' => [
             'class' => 'yii\caching\FileCache',
@@ -19,7 +19,7 @@ $config = [
             'enableAutoLogin' => true,
         ],
         'errorHandler' => [
-            'errorAction' => 'mobile/index',
+            'errorAction' => 'home/index',
         ],
         'mailer' => [
             'class' => 'yii\swiftmailer\Mailer',
