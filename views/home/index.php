@@ -91,9 +91,8 @@
             <hr>
             <div class="col-xs-12">
                 <h2 id="section-3">Video</h2>
-                <div class="zy_media" style="height:400px">
-                    <video poster="/images/test.jpg" data-config='{"mediaTitle": "《疯狂动物城》--腾讯视频"}' style="height:400px">
-                        <source src="/public/video/test.mp4" type="video/mp4">
+                <div style="height:480px" class="ml120">
+                    <video poster="/images/test.jpg" data-config='{"mediaTitle": "《疯狂动物城》--腾讯视频"}' style="height:480px" src="/public/video/test.mp4" type="video/mp4" controls>
                         您的浏览器不支持HTML5视频
                     </video>
                 </div>
